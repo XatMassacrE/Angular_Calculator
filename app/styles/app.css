@@ -1,0 +1,150 @@
+/* Space out content a bit */
+*{
+  margin:0;
+  padding:0;
+}
+
+body {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.calc{
+  background: #1D1D1D;
+  width:100%;
+  height:800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h3{
+  text-align:center;
+  color:#ffffff;
+  font-size: 40px;
+}
+.main{
+  margin:20px auto;
+  border:1px solid #202020;
+  border-bottom: none;
+  width:50%;
+  height:600px;
+}
+
+.result{
+  display: block;
+  width: 80%;
+  height: 15%;
+  background:#2E2E2E;
+  box-sizing: border-box;
+  border:none;
+  padding: 0;
+  margin: 0;
+  resize: none;
+  color: #fff;
+  font-size: 80px;
+  text-align: right;
+  line-height: 100px;
+  overflow: hidden;
+  background-clip: border-box;
+  margin-bottom: 10px;
+}
+.memory{
+  display: block;
+  width: 20%;
+  height: 15%;
+  background:#2E2E2E;
+  box-sizing: border-box;
+  border: none;
+  padding: 0;
+  margin: 0;
+  resize: none;
+  color: #ababab;
+  font-size: 40px;
+  text-align: center;
+  line-height: 100px;
+  overflow: hidden;
+  float: left;
+  background-clip: border-box;
+}
+.memoryDiv{
+  height: 15%;
+  background: #3F3F3F;
+  box-sizing: border-box;
+  float: left;
+  color: #ffffff;
+  font-size: 35px;
+  text-align: center;
+  line-height: 83px;
+}
+.history{
+  display: block;
+  width: 100%;
+  height: 15%;
+  background:#2E2E2E;
+  box-sizing: border-box;
+  border: none;
+  border-top: 5px solid #458500;
+  padding: 0;
+  margin: 0;
+  resize: none;
+  color: #ababab;
+  font-size: 40px;
+  text-align: right;
+  line-height: 100px;
+  overflow: hidden;
+  background-clip: border-box;
+}
+.row{
+  height: 14%;
+  background: #1D1D1D;
+  box-sizing: border-box;
+  border-bottom: 5px solid #1D1D1D;
+  overflow: hidden;
+}
+
+.col{
+  height: 100%;
+  background: #3F3F3F;
+  box-sizing: border-box;
+  border-right: 3px solid #1D1D1D;
+  border-left: 3px solid #1D1D1D;
+  float: left;
+  color: #ffffff;
+  font-size: 35px;
+  text-align: center;
+  line-height: 83px;
+}
+
+.col:hover{
+  background: #585858;
+}
+.col:active{
+  background: #ffffff;
+  color: #000000;
+}
+.normal{
+  width: 20%;
+}
+
+.zero{
+  width: 40%;
+}
+.equal{
+  width: 20%;
+  background: #458500;
+}
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}

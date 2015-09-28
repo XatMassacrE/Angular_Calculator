@@ -1,0 +1,9 @@
+
+<div class="main">
+    <textarea class="history">{{ history.join("") }}</textarea>
+    <div class="memory" ng-class="memoryClass()" ng-model="memory">{{memory}}</div>
+    <textarea ng-model="result" class="result" ></textarea>
+    <div ng-repeat="item in data" class="row">
+        <div class="col" ng-repeat="a in item" ng-class="showClass(a)" ng-click="showResult(a)" >{{a}}</div>
+    </div>
+</div>
