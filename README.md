@@ -1,17 +1,17 @@
 ### Introduction
-- this is a calculator for win8.1-metro programed by angularjs.Absolutely, there are many bugs. But i will improve it in the future.
+- this is a calculator for win8.1-metro programed by angularjs. Absolutely, there are many bugs. But i will improve it in the future.
   welcome to take issues.
 
-## Getting Started
+### Getting Started
 
-To get you started you can simply clone the angular-seed repository and install the dependencies:
+To get you started you can simply clone the angular_calculator repository and install the dependencies:
 
 ### Prerequisites
 
 You need git to clone the angular-seed repository. You can get git from
 [http://git-scm.com/](http://git-scm.com/).
 
-We also use a number of node.js tools to initialize and test angular-seed. You must have node.js and
+We also use a number of node.js tools to initialize and test angular_calculator. You must have node.js and
 its package manager (npm) installed.  You can get them from [http://nodejs.org/](http://nodejs.org/).
 
 ### Clone angular_calculator
